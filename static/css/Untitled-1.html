@@ -9,10 +9,11 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous" />
-      <link rel="stylesheet" href="C:\\Users\\18176\\Documents\\Tyann's Bootcamp\\UFOs\\static\\css\\style.css">
+      crossorigin="anonymous"
+      rel="stylesheet" href="static/css/style.css"
+    />
 </head>
-<body class="bg-dark">
+<body class ="bg-dark">
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg"></nav>
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
@@ -36,32 +37,19 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-            <form class="bg-dark">
-              <p>Filter Search</p>
-              <ul class="bg-dark">
-                <li class="bg-dark">
+            <form class ="bg-dark">
+                <p>Filter Search</p>
+                <ul class ="bg-dark">
+              
+              <li class ="bg-dark">
                   <label for="date">Enter Date</label>
-                  <input type="text" placeholder="1/10/2010" id="datetime" />
-              </li>
-              <li class="bg-dark">
-                <label for="city">Enter a City</label>
-                <input type="text" placeholder="rosewell" id="city" />
-            </li>
-            <li class="bg-dark">
-              <label for="state">Enter a State</label>
-              <input type="text" placeholder="ca" id="state" />
-          </li>
-          <li class="bg-dark">
-            <label for="country">Enter a Country</label>
-            <input type="text" placeholder="US" id="Country" />
-        </li>
-        <li class="bg-dark">
-          <label for="shape">Enter a shape</label>
-          <input type="text" placeholder="circle" id="shape" />
-      </li>
-              </ul>
-             </form>
-             
+                <input type="text" placeholder="1/10/2010" id="datetime" />
+            </li class ="bg-dark">
+            <li class ="bg-dark">
+                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+            </li class ="bg-dark">
+          </ul>
+        </form>
           </div>
           <div class="col-md-9">
             <table class="table table-striped">
